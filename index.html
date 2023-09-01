@@ -242,16 +242,16 @@
 					<div class="nombre-mail">
 						<div class="nombre">	
 							<label for="">Nombre y apellido</label>
-							<input type="text" placeholder=" Ingrese un nombre" required>
+							<input type="text" placeholder=" Ingrese un nombre" minlength="5" maxlength="20" required>
 						</div>	
 						<div class="mail">
 							<label for="email">Email</label>
-							<input type="email" placeholder=" usuario@usuario.com" required>
+							<input type="email" placeholder=" usuario@usuario.com" minlength="5" maxlength="200" required>
 						</div>
 					</div>
 					<div class="consulta-enviar">
 						<label for="">Consulta</label>
-						<textarea name="consulta" id="" rows="6" placeholder=" Ingrese su consulta aqui" required></textarea>
+						<textarea name="consulta" id="" rows="6" placeholder=" Ingrese su consulta aqui" minlength="15" maxlength="200" required></textarea>
 					</div>
 					<div class="butt">
 						<button type="submit">ENVIAR CONSULTA</button>

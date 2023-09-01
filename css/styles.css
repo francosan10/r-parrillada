@@ -388,7 +388,7 @@ footer div {
         min-height: 500px;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: cover; 
     }
     .nombre-mail {
         display: flex;
@@ -452,14 +452,14 @@ footer div {
         align-items: center;
     }
     footer a, li {
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
     .info,  .contac, .horarios, .redes {
         width: 80%;
         
     }
     .redes a i {
-        font-size: 4rem;
+        font-size: 2rem;
     }
 }
 /* media queries tablet */
@@ -595,12 +595,12 @@ footer div {
     }
     /* footer */
     footer a, li {
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
     .info,  .contac, .horarios, .redes {
         width: 40%;
     }
     .redes a i {
-        font-size: 4rem;
+        font-size: 2rem;
     }
 }
