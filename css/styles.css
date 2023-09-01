@@ -1,0 +1,585 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+body {
+    background-color: #f1f8ff;
+}
+h4 {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2rem;
+    color: #fea116;
+    margin-bottom: 1rem;
+}
+p {
+    color: dimgrey;
+    font-size: 1.2rem;
+}
+a:hover {
+    color: #ffc164;
+}
+/* encabezado y barra de navegacion */
+header {
+    background: #0f172b;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+}
+.logo a{
+    color: #fea116;
+    font-weight: 800;
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.logo i {
+    margin-right: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+/* seccion hero */
+.hero {
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg-banner.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10vw 20vw;
+}
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+.hero p {
+    color: white;
+}
+/* seccion - cards */
+.informacion-general {
+    padding: 0 5vw;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+}
+.card {
+    background-color: white;
+    width: 20%;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5%;
+}
+.card i {
+    color: #fea116;
+    font-size: 50px;
+    margin: 5px 0;
+}
+.card h3 {
+    margin: 5px 0;
+}
+.card p {
+    margin-bottom: 20px;
+}
+/* seccion - nosotros */
+.nosotros {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.imagenes {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.imagenes1 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.imagenes2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 11%;
+}
+.grande {
+    margin-bottom: 10px;
+    width: 20vw;
+}
+.chica {
+    margin-bottom: 10px;
+    width: 15vw;
+}
+/*  seccion - sobre nosotros */
+#sobre-nosotros {
+    padding-left: 10vw;
+    width: 40%;
+}
+#sobre-nosotros i{
+    color: #fea116;
+    margin-bottom: 10px;
+}
+#sobre-nosotros h4 {
+    text-align: start;
+}
+/* seccion menu */
+#menu {
+    padding: 0 5vw;
+    margin-bottom: 50px;
+}
+#menu h2, h4 {
+    text-align: center;
+}
+.platos {
+    display: flex;
+    justify-content: space-between;
+}
+.platos1 {
+    width: 45%;
+}
+.platos2 {
+    width: 45%;
+}
+.plato {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.image {
+    margin-right: 30px;
+}
+.image img {
+    width: 8vw;
+}
+.item {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.precio {
+    color: #fea116;
+    font-weight: bolder ;
+}
+.detalle p {
+    padding-top: 5px;
+}
+.detalle {
+    width: 100%;
+}
+/* seccion formulario */
+#consulta {
+    background-color: #0f172b;
+    display: flex;
+    color: white;
+    margin-bottom: 30px;
+}
+.imagen-formulario {
+    width: 50%;
+    background-image: url(../images/contacto.jpg);
+    background-size: cover;
+}
+.form {
+    width: 50%;
+    padding: 1rem;
+}
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titulos h2{
+    text-align: center;
+}
+.nombre-mail {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nombre, .mail {
+    width: 100%;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input {
+    width: 100%;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+.consulta-enviar {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+    resize: none;
+    padding: 10px 0;
+    font-size: 1.1rem;
+}
+.butt {
+    width: 100%;
+}
+button {
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    background-color: #fea116;
+    padding: 10px 0;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+/* seccion cheffs */
+.cheffs {
+    padding: 0 5vw;
+    margin-bottom: 2rem;
+}
+.cheffs h2{
+text-align: center;
+}
+.cards-cheffs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-cheff {
+    background-color: white;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    padding-bottom: 2rem;
+}
+.card-cheff img{
+    width: 40%;
+    border-radius: 50%;
+    padding: 2rem;
+}
+/* pie de pagina */
+footer {
+    width: 100%;
+    background-color: #0f172b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer a {
+    color: white;
+}
+footer h4 {
+    text-align: start;
+}
+li {
+    list-style-type: none;
+}
+footer div {
+    padding: 1rem;
+    width: 22%;
+}
+.info a {
+    margin: 5px;
+}
+.contac li, .horarios li{
+    margin: 5px;
+}
+.contac i {
+    margin-right: 5px;
+}
+.redes a{
+    margin: 5px;
+    font-size: 2rem;
+}
+/* media queries mobile */
+@media (max-width: 767px){
+    h4, p {
+        font-size: 1.5rem;
+    }
+    /* encabezado */
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .logo a {
+        font-size: 3rem;
+    }
+    .logo i {
+        display: none;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    nav a {
+        font-size: 1.2rem;
+        margin: 5%;
+    }
+    /* hero */
+    .hero {
+        padding: 5vw 10vw;
+    }
+    .hero h1 {
+        font-size: 2rem;
+    }
+    /* cards */
+    .card {
+        width: 100%;
+    }
+    /* nosotros */
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #sobre-nosotros {
+        padding: 5vw 0;
+        width: 100%;
+        margin: 0;
+    }
+    #sobre-nosotros h4{
+        text-align: center;
+    }
+    /* menu */
+    .platos {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .platos1, .platos2 {
+        width: 100%;
+    }
+    .plato {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    .image img{
+        width: 25vw;
+        border-radius: 5%;
+    }
+    /* formulario */
+    #consulta {
+        display: flex;
+        flex-direction: column;
+    }
+    .form {
+        width: 100vw;
+        padding: 0;
+    }
+    .imagen-formulario {
+        width: 100%;
+        min-height: 500px;
+    }
+    .nombre-mail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nombre, .mail  {
+        width: 90%;
+    }
+    .formulario label, input, button, textarea {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .consulta-enviar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .consulta-enviar label {
+        width: 90%;
+        padding-left: 1.2vw;
+    }
+    .consulta-enviar textarea {
+        width: 90%;
+        margin-bottom: 3vw;
+    }
+    .butt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .butt button {
+        width: 90%;
+    }
+    /* chefs */
+    .cheffs h2 {
+        margin-bottom: 2rem;
+    }
+    .cards-cheffs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-cheff {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    .card-cheff img {
+        width: 50%;
+    }
+    .card-cheff h3 {
+        font-size: 1.5rem;
+    }
+    /* footer */
+    footer {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer a, li {
+        font-size: 2rem;
+    }
+    .info,  .contac, .horarios, .redes {
+        width: 80%;
+        
+    }
+    .redes a i {
+        font-size: 4rem;
+    }
+}
+/* media queries tablet */
+@media (min-width: 768px) and (max-width: 1199px) {
+    h4, p {
+        font-size: 1.8rem;
+    }
+    /* nav */
+    nav a {
+        font-size: 1.2rem;
+    }
+    /* hero */
+    .hero {
+        padding: 10vw;
+    }
+    .hero h1 {
+        font-size: 3rem;
+    }
+    /* cards */
+    .card {
+        width: 42%;
+    }
+    /* nosotros */
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #sobre-nosotros {
+        padding: 10vw 0;
+        width: 100%;
+    }
+    #sobre-nosotros h4{
+        text-align: center;
+    }
+    /* menu */
+    .platos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 5vw;
+    }
+    .platos1, .platos2 {
+        width: 100%;
+    }
+    .plato {
+        margin-bottom: 2rem;
+    }
+    .image img{
+        width: 15vw;
+        border-radius: 5%;
+    }
+    /* formulario */
+    #consulta {
+        display: flex;
+        flex-direction: column;
+    }
+    .form {
+        width: 100vw;
+        padding: 0;
+    }
+    .imagen-formulario {
+        width: 100%;
+        min-height: 500px;
+    }
+    .nombre-mail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nombre, .mail  {
+        width: 90%;
+    }
+    .formulario label, input, button, textarea {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .consulta-enviar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .consulta-enviar label {
+        width: 90%;
+        padding-left: 1.2vw;
+    }
+    .consulta-enviar textarea {
+        width: 90%;
+        margin-bottom: 3vw;
+    }
+    .butt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .butt button {
+        width: 90%;
+    }
+    /* chefs */
+    .cheffs h2 {
+        margin-bottom: 2rem;
+    }
+    .card-cheff {
+        width: 47%;
+        margin-bottom: 2rem;
+    }
+    .card-cheff img {
+        width: 40%;
+    }
+    .card-cheff h3 {
+        font-size: 1.5rem;
+    }
+    /* footer */
+    footer a, li {
+        font-size: 2rem;
+    }
+    .info,  .contac, .horarios, .redes {
+        width: 40%;
+    }
+    .redes a i {
+        font-size: 4rem;
+    }
+}
